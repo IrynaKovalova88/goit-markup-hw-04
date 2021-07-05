@@ -323,6 +323,42 @@ address {
 }
 /*========= END TEAM ========*/
 
+/*========= CLIENTS ========*/
+
+.clients-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--social-icon);
+  border-radius: 4px;
+  fill: var(--social-icon);
+}
+
+.clients-link:hover,
+.clients-link:focus {
+  fill: var(--accent-color);
+}
+.clients-link:hover,
+.clients-link:focus {
+  border-color: var(--accent-color);
+}
+
+/*========= END CLIENTS ========*/
+
 /*========= PORTFOLIO ========*/
 .section-portfolio {
   padding-top: 64px;
