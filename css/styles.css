@@ -121,6 +121,8 @@ address {
   letter-spacing: 0.03em;
   color: var(--logo-header-color);
   margin-right: 93px;
+  padding-top: 24px;
+  padding-bottom: 25px;
 }
 .logo-part {
   color: var(--logo-part-color);
@@ -165,15 +167,12 @@ address {
   background-color: var(--hero-background-color);
   padding: 200px 0;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url(../images/hero.jpg);
-  /* background-position: center;
   background-size: cover;
-   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: center;
-   */
+  max-width: 1600px;
+  background-position: center;
+  margin: 0 auto;
 }
 
 .hero-title {
