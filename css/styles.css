@@ -95,15 +95,14 @@ address {
 
 /*========= HEADER ========*/
 .header {
-  padding-top: 24px;
-  padding-bottom: 25px;
   border-bottom: 1px solid var(--border-header);
 }
 .header-container,
 .navigation,
 .menu,
 .contacts,
-.logo {
+.logo,
+.contacts-link {
   display: flex;
   align-items: center;
 }
@@ -150,6 +149,10 @@ address {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+}
+.icon-header {
+  fill: currentColor;
+  margin-right: 10px;
 }
 
 /*========= END HEADER ========*/
